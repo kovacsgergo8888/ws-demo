@@ -1,0 +1,12 @@
+<html>
+  <bod>
+
+  </bod>
+  <script>
+    const socket = new WebSocket('ws://localhost:8080')
+    console.log(socket)
+    socket.onmessage = ({data}) => {
+      console.log(data)
+    }
+  </script>
+</html>

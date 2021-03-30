@@ -1,0 +1,17 @@
+POST http://localhost:8080/orderCounter
+Content-Type: application/json
+
+{
+  "shopName": "shop1",
+  "orderCount": 42
+}
+
+###
+
+POST http://localhost:8080/orderCounter
+Content-Type: application/json
+
+{
+  "shopName": "shop2",
+  "orderCount": 3312
+}
